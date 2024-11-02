@@ -5,9 +5,9 @@ from pyrogram.errors import FloodWait
 
 bot = Client(
     "Remove FwdTag",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["7620149291:AAF2AsPcyBKQaEcE1Tz5CQZyhcTDHW4Fg5A"],
+    api_id = int(os.environ["28450765"]),
+    api_hash = os.environ["36f00f11f9d5c65e69b81fd804453a93"]
 )
 
 
@@ -17,7 +17,7 @@ Hi {}, I'm Forward Tag Remover bot.\n\nForward me some messages, i will remove f
 
 START_BTN = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Source Code', url='https://github.com/samadii/ChannelForwardTagRemover'),
+        InlineKeyboardButton('Developer', url='https://t.me/Soutick_09'),
         ]]
     )
 
